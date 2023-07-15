@@ -50,6 +50,10 @@ public class MemberController {
 
         }
     }
+    @GetMapping("/member/logindashboard")
+    public String login22() {
+        return "temp3";
+    }
 
 }
 
